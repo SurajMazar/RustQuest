@@ -5,9 +5,9 @@ export const FPS = 30
 const TRANSITION_FRAMES = 20
 const MIN_SEGMENT_SEC = 2.6
 const MAX_SEGMENT_SEC = 9
-// Rough average speaking rate for the built-in browser voices this narration
-// relies on — used only to size each step's on-screen duration so the visual
-// timeline doesn't outrun (or crawl behind) the spoken caption.
+// Rough average speaking rate for the Kokoro narration voices — used only to
+// size each step's on-screen duration so the visual timeline doesn't outrun
+// (or crawl behind) the spoken caption.
 const WORDS_PER_SEC = 2.6
 
 export interface DiagramSegment {
